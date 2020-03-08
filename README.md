@@ -1,11 +1,11 @@
 # Hospital Appointment Queue
-A dockerized application for queuing patients according to severity of the disease.
+A dockerized application for queuing patients according to severity of the diseases.
 
 ### High level requirements
 
-*   Use at least 4 different diseases.
-*   Accept at least 3 patients who have different diseases at every hour between 8 am. and 5 pm.
-*   Ensure system holds the informations of all patients.
+*   Use at least 3 different disease types.
+*   Accept at least 3 patients who have different diseases.
+*   Ensure system holds the records of cured patients informations.
 
 ### Technical requirements
 
