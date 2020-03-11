@@ -1,5 +1,10 @@
 # Hospital Appointment Queue
 A dockerized application for queuing patients according to severity of the diseases.
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f6ba5cd4523742a3bd4a502774ccbe54)](https://www.codacy.com/manual/metin_akin_bursa/hospital-appointment?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=akinmetin/hospital-appointment&amp;utm_campaign=Badge_Grade)
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on a docker container for development and testing purposes.
 
 ### High level requirements
 
@@ -14,3 +19,7 @@ A dockerized application for queuing patients according to severity of the disea
 *   Use a NoSQL database such as MongoDB.
 *   Use Python version 3.6+.
 *   Use docker for containerization.
+
+### Licensing
+
+All types usage of this project is required permission from owner of the repository.
