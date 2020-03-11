@@ -40,8 +40,8 @@ These instructions will get you a copy of the project up and running on a docker
     *   ``DB_PASSWORD``: Database password for the MongoDB server.
     *   ``DB_HOST``: Hostname or IP of the MongoDB server.
     *   ``DB_PORT``: Port of the MongoDB server.
-    *   ``RABBITMQ_DEFAULT_USER``: RabbitMQ root username.
-    *   ``RABBITMQ_DEFAULT_PASS``: RabbitMQ root password.
+    *   ``RABBITMQ_DEFAULT_USER``: Root username for RabbitMQ.
+    *   ``RABBITMQ_DEFAULT_PASS``: Root password for RabbitMQ.
 
 ## Versioning
 
