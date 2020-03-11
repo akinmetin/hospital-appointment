@@ -6,7 +6,8 @@ parameters = pika.ConnectionParameters("rabbitmq", 5672, "/", credentials)
 connection = pika.BlockingConnection(parameters)
 channel = connection.channel()
 
-channel.queue_declare(queue="doctor_queue_prio", arguments={'x-max-priority': 10})
+channel.queue_declare(queue="doctor_queue_prio",
+                      arguments={'x-max-priority': 10})
 
 
 def emergency():
@@ -32,8 +33,8 @@ def esthetic():
     print("Patient with an esthetic problem entered to doctor's room!")
 
 
-# Run 10 times queuing
-for x in range(0, 10):
+# Run 11 times queuing
+for x in range(0, 11):
     # Everytime 10 patients enter into the hospital
     # Consider queue line for 3 emergency, 5 cardiology and 2 esthetic patients
     patient_queue = [0, 0, 0, 1, 1, 1, 1, 1, 2, 2]
